@@ -1,0 +1,11 @@
+import math 
+degrees = float(input("Enter the angle in degree : "))
+radians = math.radians(degrees)
+sin = math.sin(radians)
+cos = math.cos(radians)
+tan = math.tan(radians)
+print("the angle in degree :\t%5.2f" %(degrees))
+print("the angle in radians :\t%5.3f" %(radians))
+print("the sin of angle :\t%.3f" %(sin))
+print("the cos of angle :\t%.3f" %(cos))
+print("the tan of angle :\t%.3f" %(tan))
